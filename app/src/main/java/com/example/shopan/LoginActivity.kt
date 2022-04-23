@@ -1,5 +1,6 @@
 package com.example.shopan
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -11,9 +12,16 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        val btnLogin = findViewById<Button>(R.id.btnLogin)
+        val btnRegister = findViewById<Button>(R.id.btnRegisterOnLogin)
+        btnRegister.setOnClickListener {
+            Intent(this@LoginActivity,RegisterActivity::class.java).also{
+                startActivity(intent)
+            Toast.makeText(this,"please make an account", Toast.LENGTH_SHORT).show()
+
+        val btnLogin = findViewById<Button>(R.id.btnLoginOnLogin)
         btnLogin.setOnClickListener {
-            Toast.makeText(this, "Button Login Clicked", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Login succesful", Toast.LENGTH_SHORT).show()
+
         }
-    }}
+    }}}}
 

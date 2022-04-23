@@ -71,6 +71,7 @@
                 android:layout_marginEnd="16dp"
                 android:hint="Password"
                 app:endIconMode="password_toggle"
+                app:endIconTint="@color/gray"
                 android:textColorHint="@color/gray"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -93,12 +94,11 @@
                 android:layout_width="114dp"
                 android:layout_height="22dp"
                 android:layout_marginTop="8dp"
-                android:text="Forgot password?"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/til_password" />
 
             <Button
-                android:id="@+id/btnLogin"
+                android:id="@+id/btnLoginOnRegister"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -113,7 +113,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/btnForgotPassword" />
 
             <Button
-                android:id="@+id/btnRegister"
+                android:id="@+id/btnRegisterOnRegister"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -121,9 +121,9 @@
                 android:text="Already have an account"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="@+id/btnLogin"
-                app:layout_constraintStart_toStartOf="@+id/btnLogin"
-                app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+                app:layout_constraintEnd_toEndOf="@+id/btnLoginOnRegister"
+                app:layout_constraintStart_toStartOf="@+id/btnLoginOnRegister"
+                app:layout_constraintTop_toBottomOf="@+id/btnLoginOnRegister" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
