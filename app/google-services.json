@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "44074386181",
+    "project_id": "shopan-firebaseauth",
+    "storage_bucket": "shopan-firebaseauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44074386181:android:3c498c049f3dbc4caf2d6c",
+        "android_client_info": {
+          "package_name": "com.example.shopan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44074386181-a181bbdkuc6kf12f9spar4ca3m5a4rdd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCizQvlwiC-7aQSDx1TQ6pMCGSINuJlz3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44074386181-a181bbdkuc6kf12f9spar4ca3m5a4rdd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
